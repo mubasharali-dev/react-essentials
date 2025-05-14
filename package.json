@@ -1,0 +1,32 @@
+{
+  "name": "react-essentials",
+  "version": "1.0.0",
+  "description": "Some basics of react",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mubasharali-dev/react-essentials.git"
+  },
+  "author": "Mubashar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mubasharali-dev/react-essentials/issues"
+  },
+  "homepage": "https://github.com/mubasharali-dev/react-essentials#readme",
+  "dependencies": {
+    "parcel": "^2.15.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "browserlists": [
+    "last 2 versions"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.27.1",
+    "@babel/preset-react": "^7.27.1"
+  }
+}
