@@ -1,5 +1,4 @@
-import { use, useEffect, useState } from "react";
-import Header from "./Header";
+import { useEffect, useState } from "react";
 import RestaurantCard from "./RestaurantCard";
 import Shimmer from "./Shimmer";
 
@@ -38,7 +37,6 @@ const Body = () => {
 
   return (
     <div className="body">
-      <Header />
       {loading ? (
         <Shimmer />
       ) : (
